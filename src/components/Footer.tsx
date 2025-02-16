@@ -67,7 +67,9 @@ const Footer = ({ ref }: FooterProps) => {
 
       <hr className="my-8" />
 
-      <p className="text-center">Copyright © 2025. All Rights Reserved.</p>
+      <p className="text-center">
+        Copyright © {new Date().getFullYear()}. All Rights Reserved.
+      </p>
     </footer>
   );
 };
